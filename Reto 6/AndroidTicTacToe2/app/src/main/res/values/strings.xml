@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">​Tic Tac Toe dafbuenoca</string>
+    <string name="title_activity_android_tic_tac_toe">AndroidTicTacToeActivity</string>
+    <string name="first_human">Juegas primero.</string>
+    <string name="turn_human">Tu turno.</string>
+    <string name="turn_computer">Turno del Celular.</string>
+    <string name="result_tie">Es un empate!.</string>
+    <string name="result_human_wins">Tu ganas!</string>
+    <string name="result_computer_wins">El celular gana!</string>
+    <string name="first_android">Turno del Celular</string>
+    <string name="nuevo_juego">Nuevo Juego</string>
+    <string name="difcultad">Difcultad</string>
+    <string name="salir_del_juego">Salir del juego</string>
+    <string name="difficulty_choose">Cambia la dificultad</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Harder</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="quit_question">¿Salir del juego?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+</resources>
