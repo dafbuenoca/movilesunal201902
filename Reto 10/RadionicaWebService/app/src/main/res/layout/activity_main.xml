@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout">
+
+    <TextView android:id="@+id/title" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:text="Cubrimiento Radiónica FM"
+        android:gravity="center_horizontal" android:layout_marginTop="20dp"
+        android:textSize="40sp" android:textColor="@color/colorAccent" />
+
+    <TextView android:id="@+id/section" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:text="Seleccione un Departamento"
+        android:gravity="center_horizontal" android:layout_marginTop="20dp"
+        android:textSize="30sp" android:textColor="@color/colorPrimaryDark"
+        />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/departamentos_arrays"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener municipios"
+        android:id="@+id/btnSubmit"
+        />
+
+    <ListView
+        android:id="@+id/listViewCompaniesFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        />
+
+</LinearLayout>

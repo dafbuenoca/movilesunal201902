@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Radionica Web Service</string>
+    <string-array name="departamentos_arrays">
+        <item>Antioquia</item>
+        <item>Caldas</item>
+        <item>Cauca</item>
+        <item>Cundinamarca</item>
+        <item>Magdalena</item>
+        <item>Risaralda</item>
+        <item>Santander</item>
+        <item>Valle del Cauca</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>
